@@ -1,5 +1,5 @@
 {
-    "name": "foo_greinisch",
+    "name": "greinisch",
     "description": "",
     "version": "0.1.0-wip",
     "author": "",
@@ -36,14 +36,19 @@
                 "dependencies": [
                     "@w3nest/webpm-client",
                     "rx-vdom",
-                    "rxjs"
+                    "rxjs",
+                    "mkdocs-ts",
+                    "@w3nest/ui-tk/Mkdocs",
+                    "@w3nest/ui-tk/Badges"
                 ],
                 "aliases": []
             }
         }
     },
     "dependencies": {
+        "@w3nest/ui-tk": "0.1.10",
         "@w3nest/webpm-client": "^0.1.13",
+        "mkdocs-ts": "0.5.4",
         "rx-vdom": "^0.1.8",
         "rxjs": "^7.8.2"
     },
@@ -81,7 +86,9 @@
     "webpm": {
         "kind": "webapp",
         "dependencies": {
+            "@w3nest/ui-tk": "0.1.10",
             "@w3nest/webpm-client": "^0.1.13",
+            "mkdocs-ts": "0.5.4",
             "rx-vdom": "^0.1.8",
             "rxjs": "^7.8.2"
         },
@@ -93,8 +100,20 @@
         "main": "./app/main.ts",
         "additionalEntries": {},
         "externals": {
+            "@w3nest/ui-tk": [
+                "@w3nest/ui-tk_APIv01"
+            ],
+            "@w3nest/ui-tk/Badges": [
+                "@w3nest/ui-tk_APIv01/Badges"
+            ],
+            "@w3nest/ui-tk/Mkdocs": [
+                "@w3nest/ui-tk_APIv01/Mkdocs"
+            ],
             "@w3nest/webpm-client": [
                 "@w3nest/webpm-client_APIv01"
+            ],
+            "mkdocs-ts": [
+                "mkdocs-ts_APIv05"
             ],
             "rx-vdom": [
                 "rx-vdom_APIv01"

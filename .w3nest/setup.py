@@ -23,6 +23,8 @@ externals_deps = {
     "@w3nest/webpm-client": "^0.1.13",
     "rx-vdom": "^0.1.8",
     "rxjs": "^7.8.2",
+    "mkdocs-ts": "0.5.4",
+    "@w3nest/ui-tk": "0.1.10",
 }
 in_bundle_deps = {}
 dev_deps = {}
@@ -40,7 +42,15 @@ config = ProjectConfig(
     ),
     bundles=Bundles(
         mainModule=MainModule(
-            entryFile="./app/main.ts", loadDependencies=list(externals_deps.keys())
+            entryFile="./app/main.ts",
+            loadDependencies=[
+                "@w3nest/webpm-client",
+                "rx-vdom",
+                "rxjs",
+                "mkdocs-ts",
+                "@w3nest/ui-tk/Mkdocs",
+                "@w3nest/ui-tk/Badges",
+            ],
         )
     ),
     devServer=DevServer(port=2010),

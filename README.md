@@ -1,4 +1,4 @@
-# foo_greinisch
+# greinisch
 
 {{shortDescription}}
 
