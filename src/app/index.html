@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>TODO</title>
+        <link rel="icon" type="image/png" href="../assets/icon.svg" />
+
+        <base href="<%= htmlWebpackPlugin.options.baseHref%>" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script id="webpm-client" src="/webpm/^0.1.13/webpm-client.js"></script>
+        <!--The following import is actually replaced at build time to insert hash in the name (for caching)
+See file webpack.config.js and plugin MiniCssExtractPlugin
+<link rel="stylesheet" href="style.css" id='css-anchor'> -->
+    </head>
+
+    <body class="vh-100 vw-100"></body>
+</html>

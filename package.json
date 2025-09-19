@@ -1,0 +1,107 @@
+{
+    "name": "foo_greinisch",
+    "description": "",
+    "version": "0.1.0-wip",
+    "author": "",
+    "license": "MIT",
+    "homepage": "https://github.com/greinisch#README.md",
+    "main": "./dist/greinisch.js",
+    "files": [
+        "dist",
+        "assets"
+    ],
+    "scripts": {
+        "clean": "del-cli dist",
+        "setup": "python .w3nest/setup.py",
+        "build": "yarn build:prod",
+        "pre-build": "yarn clean",
+        "post-build": "del-cli dist/src/tests",
+        "build:dev": "yarn pre-build && webpack --mode development && yarn post-build",
+        "build:prod": "yarn pre-build && webpack --mode production && yarn post-build",
+        "lint-check": "yarn lint-prettier-check && yarn lint-eslint-check",
+        "lint-prettier-check": "prettier --check ./src",
+        "lint-prettier-write": "prettier --write ./src",
+        "lint-eslint-check": "eslint ./src",
+        "test": "jest -i",
+        "test-coverage": "jest -i --collect-coverage",
+        "doc": "typedoc",
+        "publish-npm-public": "yarn build:prod && yarn test-coverage && yarn publish --access public",
+        "start": "webpack serve --mode development"
+    },
+    "exports": {
+        ".": {
+            "default": "./dist/greinisch.js",
+            "types": "./dist/src/app/main.d.ts",
+            "webpm": {
+                "dependencies": [
+                    "@w3nest/webpm-client",
+                    "rx-vdom",
+                    "rxjs"
+                ],
+                "aliases": []
+            }
+        }
+    },
+    "dependencies": {
+        "@w3nest/webpm-client": "^0.1.13",
+        "rx-vdom": "^0.1.8",
+        "rxjs": "^7.8.2"
+    },
+    "devDependencies": {
+        "@types/jest": "^30.0.0",
+        "@types/node": "^24.3.0",
+        "@types/webpack": "^5.28.5",
+        "css-loader": "^7.1.2",
+        "del-cli": "^6.0.0",
+        "eslint": "9.34.0",
+        "eslint-config-prettier": "10.1.8",
+        "eslint-plugin-jest": "^29.0.1",
+        "file-loader": "6.2.0",
+        "html-webpack-plugin": "5.6.4",
+        "isomorphic-fetch": "^3.0.0",
+        "jest": "^30.1.2",
+        "jest-environment-jsdom": "^30.1.2",
+        "jest-junit": "^16.0.0",
+        "mini-css-extract-plugin": "^2.9.4",
+        "prettier": "^3.6.2",
+        "prettier-plugin-properties": "^0.3.0",
+        "source-map-loader": "5.0.0",
+        "ts-jest": "^29.4.1",
+        "ts-loader": "9.5.4",
+        "ts-node": "10.9.2",
+        "tsx": "^4.20.5",
+        "typedoc": "^0.28.12",
+        "typescript": "5.9.2",
+        "typescript-eslint": "8.41.0",
+        "webpack": "^5.101.3",
+        "webpack-bundle-analyzer": "^4.10.2",
+        "webpack-cli": "6.0.1",
+        "webpack-dev-server": "^5.2.2"
+    },
+    "webpm": {
+        "kind": "webapp",
+        "dependencies": {
+            "@w3nest/webpm-client": "^0.1.13",
+            "rx-vdom": "^0.1.8",
+            "rxjs": "^7.8.2"
+        },
+        "html": "dist/index.html"
+    },
+    "webpack": {
+        "root": "src",
+        "apiVersion": "01",
+        "main": "./app/main.ts",
+        "additionalEntries": {},
+        "externals": {
+            "@w3nest/webpm-client": [
+                "@w3nest/webpm-client_APIv01"
+            ],
+            "rx-vdom": [
+                "rx-vdom_APIv01"
+            ],
+            "rxjs": [
+                "rxjs_APIv7"
+            ]
+        }
+    }
+}
