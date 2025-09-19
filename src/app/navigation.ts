@@ -51,13 +51,8 @@ export const navigation: AppNav = {
             header: { icon: icon('fas fa-graduation-cap') },
             layout: fromMd('education.md'),
         },
-        '/portfolio': {
-            name: 'Portfolio',
-            header: { icon: icon('fas fa-code') },
-            layout: fromMd('portfolio.md'),
-        },
         '/papers': {
-            name: 'Publication',
+            name: 'Publications',
             header: { icon: icon('fas fa-newspaper') },
             layout: fromMd('papers.md'),
         },

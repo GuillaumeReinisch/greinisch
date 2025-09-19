@@ -24,7 +24,7 @@ Package(
         artifacts=["dist"],
     ),
     metadata=Metadata(
-        icon="assets/icon.svg",
+        icon="assets/me.jpeg",
         description=pkg_json["description"],
         readme="/README.md",
         # documentation="url to documentation",

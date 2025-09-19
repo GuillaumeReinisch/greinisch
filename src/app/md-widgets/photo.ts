@@ -24,7 +24,7 @@ export const CvDownload: AnyVirtualDOM = {
 }
 export const photoView: AnyVirtualDOM = {
     tag: 'div',
-    class: 'w-100 d-flex justify-content-center my-5',
+    class: 'w-100 d-flex justify-content-center mt-5',
     children: [
         {
             tag: 'div',
@@ -41,6 +41,10 @@ export const photoView: AnyVirtualDOM = {
                 {
                     tag: 'div',
                     class: 'my-2',
+                    style: {
+                        fontSize: '1.1rem',
+                        fontWeight: 'bold',
+                    },
                     children: [
                         {
                             tag: 'div',
@@ -70,6 +74,22 @@ export const photoView: AnyVirtualDOM = {
                 },
                 CvDownload,
             ],
+        },
+    ],
+}
+
+export const quoteReichenbach: AnyVirtualDOM = {
+    tag: 'div',
+    class: 'p-2 text-center text-dark bg-light mx-auto w-75 border rounded my-5',
+    children: [
+        {
+            tag: 'i',
+            innerText:
+                '“If error is corrected whenever it is recognized as such, the path of error is the path of truth.”',
+        },
+        {
+            tag: 'div',
+            innerText: '— Hans Reichenbach',
         },
     ],
 }

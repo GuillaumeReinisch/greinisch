@@ -1,6 +1,6 @@
 import { fromMarkdown, GlobalMarkdownViews, MdWidgets } from 'mkdocs-ts'
 import setup from '../../package.json'
-import { photoView } from './md-widgets/photo'
+import { photoView, quoteReichenbach } from './md-widgets/photo'
 import { stackIcons } from './md-widgets/stack-icons'
 import { thesisImg, paperDownload } from './md-widgets/thesis'
 
@@ -24,6 +24,7 @@ GlobalMarkdownViews.factory = {
     stackIcons: () => stackIcons,
     thesisImg: () => thesisImg,
     paperDownload: () => paperDownload,
+    quoteReichenbach: () => quoteReichenbach,
 }
 
 MdWidgets.ApiLink.Mapper = (target: string) => {

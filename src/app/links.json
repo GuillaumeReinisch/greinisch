@@ -3,9 +3,28 @@
     },
     "crossLinks": {
         "papers":"@nav/papers",
-        "portfolio": "@nav/portfolio"
+        "me":"@nav/about-me",
+        "portfolio": "@nav/portfolio",
+        "experience": "@nav/experience",
+        "education": "@nav/education",
+        "publication": "@nav/papers"
     },
     "extLinks": {
+        "paper-LAM":"https://pubs.acs.org/doi/10.1021/ct300278x",
+        "paper-PyrolysisProducts": "https://arc.aiaa.org/doi/10.2514/6.2014-1388",
+        "paper-QuantitativeProduction": "https://www.sciencedirect.com/science/article/abs/pii/S0141391014004534",
+        "paper-HinderedRotor": "https://pubs.aip.org/aip/jcp/article-abstract/133/15/154112/190206/Hindered-rotor-models-with-variable-kinetic?redirectedFrom=fulltext",
+        "paper-Methyldichloroborane":"https://pubmed.ncbi.nlm.nih.gov/22097577/",
+        "paper-TheoreticalBCl3H": "https://pubs.acs.org/doi/abs/10.1021/jp201035g",
+        "paper-CVD": "https://www.researchgate.net/publication/234008635_Studies_of_Gas-Phase_Reactivity_during_Chemical_Vapor_Deposition_of_Boron_Carbide",
+        "paper-ReactionMechanism":"https://www.researchgate.net/publication/51633722_Reaction_Mechanism_for_the_Thermal_Decomposition_of_BCl3CH4H-2_Gas_Mixtures",
+        "paper-ExpThBCl3H2":"https://www.researchgate.net/publication/230676999_Experimental_and_theoretical_investigation_of_BCl3_decomposition_in_H2",
+        "paper-Bloch": "https://www.researchgate.net/publication/230676977_Confinement_of_Bloch_waves_in_YSi2_nanostructures_on_Si111",
+        "webpm": "https://w3nest.org/apps/@webpm-client/doc/latest",
+        "mkdocs-ts": "https://w3nest.org/apps/@mkdocs-ts/doc/latest",
+        "vs-flow": "https://w3nest.org/apps/@vs-flow/doc/latest",
+        "rx-vdom": "https://w3nest.org/apps/@rx-vdom/doc/latest",
+        "w3nest": "https://w3nest.org"
     },
     "githubLinks": {
         "repo":"https://github.com/GuillaumeReinisch/greinisch"
