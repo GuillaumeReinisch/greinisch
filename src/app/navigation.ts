@@ -20,9 +20,41 @@ export const decorationHome = {
     },
 }
 
+const icon = (faClass: string): AnyVirtualDOM => {
+    return {
+        tag: 'i',
+        class: faClass,
+        style: {
+            width: '25px',
+        },
+    }
+}
 export const navigation: AppNav = {
     name: 'G.Reinisch',
     header: decorationHome,
     layout: fromMd('home.md'),
-    routes: {},
+    routes: {
+        '/about-me': {
+            name: 'About Me',
+            header: {
+                icon: icon('fas fa-id-badge'),
+            },
+            layout: fromMd('about-me.md'),
+        },
+        '/experience': {
+            name: 'Experience',
+            header: { icon: icon('fas fa-briefcase') },
+            layout: fromMd('experience.md'),
+        },
+        '/education': {
+            name: 'Education',
+            header: { icon: icon('fas fa-graduation-cap') },
+            layout: fromMd('education.md'),
+        },
+        '/portfolio': {
+            name: 'Portfolio',
+            header: { icon: icon('fas fa-code') },
+            layout: fromMd('portfolio.md'),
+        },
+    },
 }
