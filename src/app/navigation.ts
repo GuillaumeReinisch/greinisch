@@ -29,10 +29,68 @@ const icon = (faClass: string): AnyVirtualDOM => {
         },
     }
 }
+
+const contact: AnyVirtualDOM = {
+    tag: 'div',
+    class: 'bg-light rounded p-2',
+    children: [
+        { tag: 'h5', innerText: 'Contact', class: 'mb-3' },
+        {
+            tag: 'div',
+            class: 'd-flex align-items-center mb-2',
+            children: [
+                {
+                    tag: 'i',
+                    class: 'fas fa-phone text-muted',
+                    style: { width: '2rem' },
+                },
+                {
+                    tag: 'a',
+                    href: 'tel:+33634443985',
+                    class: 'ms-2',
+                    innerText: '+33 6 34 44 39 85',
+                },
+            ],
+        },
+        {
+            tag: 'div',
+            class: 'd-flex align-items-center mb-2',
+            children: [
+                {
+                    tag: 'i',
+                    class: 'fas fa-envelope text-muted',
+                    style: { width: '2rem' },
+                },
+                {
+                    tag: 'a',
+                    href: 'mailto:reinisch.gui@gmail.com',
+                    class: 'ms-2',
+                    innerText: 'reinisch.gui@gmail.com',
+                },
+            ],
+        },
+        {
+            tag: 'div',
+            class: 'd-flex align-items-center',
+            children: [
+                {
+                    tag: 'i',
+                    class: 'fas fa-map-pin text-muted',
+                    style: { width: '2rem' },
+                },
+                { tag: 'span', class: 'ms-2', innerText: 'Montpellier' },
+            ],
+        },
+    ],
+}
+
 export const navigation: AppNav = {
     name: 'G.Reinisch',
     header: decorationHome,
-    layout: fromMd('home.md'),
+    layout: {
+        content: fromMd('home.md'),
+        toc: () => contact,
+    },
     routes: {
         '/about-me': {
             name: 'About Me',
