@@ -1,23 +1,31 @@
 # <i class="fas fa-graduation-cap"></i> Education
 
+---
 
-## Physico-Chimie de la Matière Condensée
+## PhD in Condensed Matter Physics & Chemistry
+<icon target="bordeaux1"></icon>
 
-*  PhD — 2006 - 2010 — Bordeaux 1 University
+* 2006 – 2010 — Bordeaux 1 University  
+* Conducted **ab-initio quantum chemistry simulations** to study kinetics and thermodynamics of BCl₃/H₂/CH₄ mixtures.  
+* Developed **C++ and Python algorithms** for statistical analysis of atomic systems; methods published in high-impact journals.
 
-*  Performed ab-initio quantum chemistry simulations to predict the kinetics and thermodynamic behavior of BCl₃/H₂/CH₄ 
-   mixtures.
+---
 
-*  Developed novel algorithms in C++ and Python to compute statistics of atomic systems based on ab-initio computations;
-   methods published in high-impact journals.
+## Engineer in Physics
+<icon target="insa"></icon>
 
+* 2004 – 2006 — INSA Toulouse
 
-## Engineer Physics
+---
 
-*  Bac +5  — 2004 - 2006 — INSA Toulouse
+## Master 1 in Physics
+<icon target="grenobleUniv"></icon> 
 
+* 2003 – 2004 — Grenoble Alpes University
 
-## Master 1 Physics
+---
 
-*  Bac +4  — 2003 - 2004 — Grenoble Alpes  University
+## Additional Training
 
+* Coursera: Machine Learning (Andrew Ng)  
+* Courses on digital marketing and micro-enterprise creation

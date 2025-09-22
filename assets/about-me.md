@@ -11,103 +11,86 @@
 
 ---
 
+## 🏆 Key Successes
+
+**YouWol / W3Nest**
+
+* Built a **local-first cloud platform** combining **PC-like security** with **cloud accessibility**.
+* Continued the project independently as **W3Nest** — see <ext-link target="w3nest">website</ext-link>.
+
+**SLB (formerly Schlumberger)**
+
+* Refactored a **100k-line C++ library**, cutting \~80% of code and improving maintainability.
+* Earned a **double promotion**; led **cloud & science innovation projects** recognized company-wide.
+
+**Post-Doctoral Research (PECOS, Austin, TX)**
+
+* Pioneered **uncertainty quantification in quantum chemistry**.
+* Invited to draft a **CNRS project** and conducted research for **NASA Ames**.
+
+**Thesis (LCTS, Bordeaux 1 University)**
+
+* First in lab to apply **quantum chemistry computations** in an applied research setting.
+* Thesis defense selected as a **special presentation** (100th defense).
+
+
+---
+
 ## ⚙️ Stack
 
-<stackIcons>
-</stackIcons>
+<stackIcons>  
+</stackIcons>  
 
+My preferred languages are **C++**, **TypeScript**, and **Python**, with a strong appreciation for rigorous type systems.
+I also plan to explore **Rust, Scala, and Julia** in the future.
 
-My favorite languages are **C++**, **TypeScript**, and **Python**. Give me a rigorous type system, and I’m happy!
-I’d also love to explore **Rust, Scala, and Julia** when time allows. I’m not particularly religious about programming 
-paradigms—I enjoy **object-oriented, functional, and reactive programming** alike.
+I am comfortable across paradigms — **object-oriented, functional, and reactive programming** — and enjoy selecting 
+the right approach for the problem at hand.
 
-I especially enjoy **science-related projects**, where I can leverage the full power of the **Python scientific stack**.
+For **scientific projects**, I make extensive use of the **Python scientific stack**, leveraging its ecosystem for 
+modeling, data analysis, and visualization.
 
-**For desktop UI**, I mainly work with **Qt**, but I get the most fun out of building web interfaces with
-**HTML/CSS/JavaScript**. Messy? Sometimes. Powerful? Absolutely.
+For **desktop UI**, my main tool is **Qt**, while for the **web** I work across both frontend and backend.
+I particularly enjoy building interfaces with **HTML/CSS/JavaScript**, and exploring cloud-native solutions with **Kubernetes**.
+I also experiment with **WebAssembly** and **Pyodide** to bring C++ and Python directly into the browser.
 
-**When it comes to the web**, I’m equally comfortable on the backend and enjoy exploring the wildness
-of **Kubernetes** and modern cloud-native infrastructure.
-I also love experimenting with **WebAssembly** and **Pyodide** to bring C++ and Python into web-browsers.
+Some of the open-source tools and libraries I frequently rely on include 
+**RxJS, D3.js, Three.js, Angular, Webpack, Qt, Eigen, NumPy, Pandas, Scikit-learn, FastAPI, MyPy, and Pydantic**;
+—big ups to the open-source community!🙏—
 
-My favorite libraries and frameworks—big ups to the open-source community!🙏—include: **RxJS, D3.js, Three.js, 
-Angular (though I wish I had used React), Webpack, Qt, Eigen, NumPy, Pandas, Scikit-learn, FastAPI, MyPy, Pydantic**, 
-and probably more.
 
 
 ---
 
 ## ⚛️ Science
 
-Below is my story in the domain of science, largely supported by scholarship. 
-For details regarding formations and degrees, see the page
-<cross-link target="education">education</cross-link>.
-
+Below is an overview of my scientific background, largely developed through academic research.
+For details on degrees and education, see the page <cross-link target="education">education</cross-link>.
 
 <thesisImg>
-</thesisImg>
+</thesisImg>  
 
-My expertise lies in **quantum chemistry** for small atomic systems, a journey that began with my **thesis** at 
-Bordeaux 1 University in the LCTS laboratory.
+My expertise lies in **quantum chemistry** for small atomic systems, a journey that began with my **thesis** at Bordeaux 1 University in the LCTS laboratory.
 
-I focused on **ab-initio quantum computations** to calculate statistical properties such as **thermodynamic data** and 
-**reaction rates**. This work involved applying first-principles methods to describe electronic structures and
-molecular interactions, allowing me to predict chemical properties and reaction outcomes. 
-By combining these computations with statistical mechanics, I was able to link quantum-level calculations to 
-macroscopic observables, providing insights into the fundamental behavior of small atomic systems.
+I worked on **ab-initio quantum computations** to calculate statistical properties such as **thermodynamic data** and **reaction rates**. These methods, grounded in first principles, enabled me to describe electronic structures and molecular interactions, and to predict chemical properties and reaction outcomes. By combining these calculations with statistical mechanics, I connected quantum-level models to macroscopic observables, providing insights into the fundamental behavior of atomic systems.
 
-In modeling, proper management of **uncertainties**—arising from model approximations and experimental data 
-acquisition—is crucial for accurate results, especially in multidisciplinary and multiscale problems. 
-During my **post-doctoral fellowship** at the PECOS laboratory in Austin, Texas, I gained hands-on experience 
-in **Bayesian inference** for uncertainty quantification and propagation. I had hoped to continue this research,
-particularly in **Bayesian experimental design**, but that journey was interrupted when I was unable to 
-join the CNRS 😔. On the bright side, this marked the beginning of my journey into **software engineering** 😄.
+A central challenge in modeling is the proper management of **uncertainties**—arising from model approximations and experimental data acquisition—especially in multidisciplinary and multiscale contexts. During my **post-doctoral fellowship** at the PECOS laboratory in Austin, Texas, I gained hands-on experience with **Bayesian inference** for uncertainty quantification and propagation. I had hoped to pursue this further, particularly in **Bayesian experimental design**, but circumstances prevented me from joining CNRS 😔. On the positive side, this transition marked the start of my career in **software engineering** 😄.
 
-If I have to pick an article I wrote to illustrate this discussion, I’m happy to share this one, published in
- the **Journal of Chemical Theory and Computation** 🎉:
+As an illustration of this work, one of my articles was published in the **Journal of Chemical Theory and Computation** 🎉:
 
 <paperDownload>
-</paperDownload>
+</paperDownload>  
 
-My full publication list is proposed <cross-link target="papers">here</cross-link>.
-
-**Machine Learning & IA**
-
-I have experience applying machine learning techniques, primarily in the domain of signal processing. 
-I’ve completed couple certifications (including Andrew Ng’s courses) that strengthened my understanding of foundational 
-concepts and practical workflows.
-
-I have a solid intuition and background to tackle moderately difficult ML problems, and I’m eager to continue learning 
-and applying these skills to real-world challenges.
+My complete list of publications is available <cross-link target="papers">here</cross-link>.
 
 ---
 
-## 🏆 Key Successes
+<note level='info' title="Machine Learning & AI" expandable="true">
+Beyond quantum chemistry, I have applied machine learning techniques, primarily in signal processing.
+I’ve completed several certifications (including Andrew Ng’s courses) that reinforced my understanding of both 
+theory and practice.
 
-**YouWol / W3Lab**
+Today, I have the background and intuition to address **moderately difficult ML problems**, and I remain eager to 
+deepen my expertise and apply these methods to real-world challenges.
 
-* Built a **local-first cloud platform** combining **PC-like security and ownership** with **cloud accessibility**.
-* Overcame numerous challenges to make it a reality.
-* See <ext-link target="w3nest">web site</ext-link>.
-
-
-**SLB (formerly Schlumberger)**
-
-* Refactored a **100k-line C++ algorithm library** previously known only to a single expert.
-* Achievements: **80% code reduction**, improved usability, easier maintenance.
-* Earned a **promotion of two senior levels**, joining the digital transformation team.
-* Proposed **cloud & science innovation projects** often recognized, in particular leading to a couple of weeks
-  visit to **SLB R\&D in Palo Alto**.
-
-**Post-Doctoral Research**
-
-* Introduced **uncertainty quantification in quantum chemistry** at PECOS—innovative for its time.
-* Invited by **Pascal Pernot (Paris-Saclay University)** to draft a CNRS project.
-* Conducted **freelance research for NASA Ames Research Center** post-postdoc.
-
-**Thesis**
-
-* First at **LCTS** to perform **quantum chemistry computations** in an applied research environment.
-* Learned independently, **innovated**, and demonstrated value to the laboratory.
-* Thesis defense selected as a **special presentation**—the 100th defense at LCTS.
-
+</note>

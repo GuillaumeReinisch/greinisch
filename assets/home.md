@@ -29,7 +29,7 @@ to deliver software that truly makes an impact.
 
 In a nutshell:
 * 10+ years designing software for **desktop and cloud applications** 
-* 10+ years developing **algorithms** in particular for Quantum Chemistry and statistical methods
+* 10+ years developing **algorithms**, in particular for Quantum Chemistry and statistical methods
 * Strong experience in **data visualization** and making scientific computing more accessible
 
 👉 Explore more in the pages below:

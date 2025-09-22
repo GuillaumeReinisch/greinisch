@@ -1,6 +1,6 @@
 # greinisch
 
-{{shortDescription}}
+Interactive online CV for Guillaume Reinisch
 
 ## Links 
 

@@ -6,11 +6,11 @@ export const CvDownload: AnyVirtualDOM = {
     children: [
         {
             tag: 'i',
-            class: 'fas fa-file-pdf me-2',
+            class: 'fas fa-download me-2',
         },
         {
             tag: 'div',
-            innerText: 'One Page CV Download',
+            innerText: 'One Page CV',
         },
     ],
     onclick: () => {

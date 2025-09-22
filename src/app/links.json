@@ -2,12 +2,10 @@
     "apiLinks": {
     },
     "crossLinks": {
-        "papers":"@nav/papers",
-        "me":"@nav/about-me",
-        "portfolio": "@nav/portfolio",
-        "experience": "@nav/experience",
-        "education": "@nav/education",
-        "publication": "@nav/papers"
+        "me":{ "href":"@nav/about-me", "icon":"fas fa-id-badge", "title": "About Me"},
+        "experience": { "href":"@nav/experience", "icon":"fas fa-briefcase", "title":"Experience"},
+        "education": { "href":"@nav/education", "icon":"fas fa-graduation-cap", "title":"Education"},
+        "papers":{ "href":"@nav/papers", "icon":"fas fa-newspaper", "title":"Papers"} 
     },
     "extLinks": {
         "paper-LAM":"https://pubs.acs.org/doi/10.1021/ct300278x",
@@ -24,7 +22,11 @@
         "mkdocs-ts": "https://w3nest.org/apps/@mkdocs-ts/doc/latest",
         "vs-flow": "https://w3nest.org/apps/@vs-flow/doc/latest",
         "rx-vdom": "https://w3nest.org/apps/@rx-vdom/doc/latest",
-        "w3nest": "https://w3nest.org"
+        "w3nest": "https://w3nest.org",
+        "youwol": "https://geoscience.youwol.com/",
+        "slb": "https://www.slb.com/",
+        "nasa-ames": "https://www.nasa.gov/ames/",
+        "pecos": "https://pecos.oden.utexas.edu/"
     },
     "githubLinks": {
         "repo":"https://github.com/GuillaumeReinisch/greinisch"

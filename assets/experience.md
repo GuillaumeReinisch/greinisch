@@ -2,15 +2,16 @@
 
 ---
 
-## Full-Stack Architect & Frontend Developer
+## <icon target="youwol"></icon> <icon target="w3nest"></icon> Full-Stack Architect & Frontend Developer
 
-*YouWol & W3Nest — 2020–2025 — Montpellier*
+*<ext-link target="youwol">YouWol</ext-link> & <ext-link target="w3nest">W3Nest</ext-link> — 
+ <icon target="calendar"></icon> 2020–2025 — <icon target="location"></icon> Montpellier*
 
 Started as **lead developer and manager** of the YouWol Platform, coordinating **frontend, backend & devops** 
 development.
 Worked closely with a DevOps engineer and later mentored a junior frontend developer.
 When the company discontinued the platform branch, I continued it independently as 
-<ext-link target="w3nest">W3Nest</ext-link>, taking full ownership of **architecture, development, and deployment**.
+**W3Nest**, taking full ownership of **architecture, development, and deployment**.
 
 <note level="question" title="Why YouWol & W3Nest ?" expandable="true">  
 YouWol – startup focused on next-generation R&D frameworks and geoscience technologies.  
@@ -26,8 +27,8 @@ When the company discontinued this branch, I continued the project independently
 * **<ext-link target="mkdocs-ts">MkDocs-TS</ext-link>**: documentation framework with **notebook-like features** for 
   technical and scientific writing.
 
-* **<ext-link target="vs-flow">Visual Studio Flow</ext-link>**: modern library for **visual reactive workflows** — 
-  simple, powerful, and modular.
+* **<ext-link target="vs-flow">Visual Studio Flow</ext-link>**: modern **low-code** library for 
+  **visual reactive workflows** — simple, powerful, and modular.
 
 * **<ext-link target="rx-vdom">Rx-vDOM</ext-link>**: **reactive DOM library** leveraging reactive programming principles 
   for dynamic UI generation.
@@ -43,9 +44,10 @@ When the company discontinued this branch, I continued the project independently
 
 ---
 
-## Software Designer
+##  <icon target="slb"></icon> Software Designer
 
-*SLB (formerly Schlumberger) — 2014–2020 — Montpellier*
+*<ext-link target="slb">SLB</ext-link> (formerly Schlumberger) — <icon target="calendar"></icon> 2014–2020 — 
+<icon target="location"></icon> Montpellier*
 
 **Key Realizations**
 
@@ -66,9 +68,10 @@ When the company discontinued this branch, I continued the project independently
 
 ---
 
-## Technology & Data Consultant (Freelance)
+## <icon target="nasa"></icon> Technology & Data Consultant
 
-*NASA Ames Research Center — 2013–2014 — Pau*
+*<ext-link target="nasa-ames">NASA Ames Research Center</ext-link> — <icon target="calendar"></icon> 6 months — 
+<icon target="location"></icon> Pau*
 
 **Key Realizations**
 
@@ -79,9 +82,10 @@ When the company discontinued this branch, I continued the project independently
 
 ---
 
-## Postdoctoral Researcher
+## <icon target="pecos"></icon> Postdoctoral Researcher
 
-*PECOS (Predictive Engineering and Computational Sciences) — 2012–2013 — Austin Texas*
+*<ext-link target="pecos">PECOS</ext-link> — <icon target="calendar"></icon> 2012–2013 — 
+<icon target="location"></icon> Austin Texas*
 
 **Key Realizations**
 

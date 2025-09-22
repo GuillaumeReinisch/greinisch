@@ -19,8 +19,7 @@ const bookmarks$ = new BehaviorSubject(['/presentations', '/sciences'])
 const footer = new Footer({
     license: 'MIT',
     copyrights: [{ year: '2025', holder: 'Guillaume Reinisch' }],
-    github: 'https://github.com/w3nest/mkdocs-ts',
-    npm: 'https://www.npmjs.com/package/mkdocs-ts',
+    github: 'https://github.com/GuillaumeReinisch/greinisch',
     docGithub: 'https://github.com/w3nest/mkdocs-ts/tree/main/doc',
 })
 

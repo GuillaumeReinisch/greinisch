@@ -110,7 +110,7 @@ export const navigation: AppNav = {
             layout: fromMd('education.md'),
         },
         '/papers': {
-            name: 'Publications',
+            name: 'Papers',
             header: { icon: icon('fas fa-newspaper') },
             layout: fromMd('papers.md'),
         },
