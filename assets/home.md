@@ -4,6 +4,23 @@
 
 <photo></photo>
 
+<note level="info" title="Skills" expandable="true">
+
+**Technical**  
+- Programming: **C++, TypeScript, Python**  
+- Scientific Computing: **Numerical methods, Algorithms, Quantum Chemistry, Statistics**  
+- Cloud & Infra: **Kubernetes, GCP/OVH, ScyllaDB, Redis, MinIO, Keycloak, CI/CD**  
+- Frontend: **Qt, HTML/CSS/JS, RxJS, D3.js, Three.js**  
+
+**Soft / Professional**  
+- Strong ability to **bridge science and engineering**  
+- Experienced in **mentoring and small-team collaboration**  
+- Passion for **simplifying complexity** and building **intuitive solutions**  
+- Curious, self-driven, and eager to **learn and share knowledge**  
+
+</note>
+
+---
 
 Hi 👋, I’m Guillaume Reinisch, a passionate programmer since the age of 14. I specialize in scientific computing, 
 system architecture, and full-stack development. 
